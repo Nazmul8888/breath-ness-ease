@@ -1,4 +1,5 @@
-import NewsSectionCard from "../Page/NewsSection/NewsSectionCard";
+import NewsSection from "../Page/NewsSection/NewsSection";
+
 import VideoNews from "../Page/VideoNews/VideoNews";
 import Banner from "./Banner/Banner";
 
@@ -7,7 +8,8 @@ const Home = () => {
     return (
         <div>
           <Banner></Banner>
-          <NewsSectionCard></NewsSectionCard>
+          
+          <NewsSection></NewsSection>
           <VideoNews></VideoNews>
         </div>
     );

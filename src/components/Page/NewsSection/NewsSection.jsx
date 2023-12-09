@@ -5,6 +5,7 @@ import NewsSectionCard from "./NewsSectionCard";
 const NewsSection = () => {
 
      const [news, setNews] = useState([]);
+     console.log(news)
 
      useEffect(()=>{
         fetch('news.json')
@@ -12,9 +13,10 @@ const NewsSection = () => {
         .then(data=> setNews(data))
      },[])
     return (
-        <div>
+        <div className=" grid grid-cols-4 gap-10">
+           
             {
-                news?.map(item=><NewsSectionCard key={item._id} aNews={item}></NewsSectionCard>)
+                news?.map(item=><NewsSectionCard key={item._id} item={item}></NewsSectionCard>)
             }
         </div>
     );

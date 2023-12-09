@@ -8,18 +8,18 @@ import banner4 from '../../../assets/bnner/banner-4.jpg'
 const Banner = () => {
     return (
         <div  >
-            <Carousel >
+            <Carousel  >
                 
                 <div>
-                    <img src={banner2} />
+                    <img  src={banner2} />
                     
                 </div>
                 <div>
-                    <img src={banner3} />
+                    <img  src={banner3} />
                     
                 </div>
                 <div>
-                    <img src={banner4} />
+                    <img  src={banner4} />
                     
                 </div>
             </Carousel>

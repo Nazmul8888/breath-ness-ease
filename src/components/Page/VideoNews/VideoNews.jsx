@@ -2,7 +2,7 @@
 
 const VideoNews = () => {
     return (
-        <div className=" bg-[#860A35]">
+        <div className=" bg-[#860A35] py-10">
             <h1 className=" text-4xl text-center font-bold  text-white">AS<span className=" text-green-500">TH</span>MA</h1>
         <div className=" flex justify-evenly items-center">
             <div>
