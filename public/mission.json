@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "Offering Relief",
+      "details":"The aim of the foundation is to offer relief and support for Astham sufferes who are unable to afford payment for the right treatment.",
+      "image": "https://i.ibb.co/98CQG73/mission-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Provide Knowledge & Support",
+      "details":"The aim of the foundation is to offer relief and support for Astham sufferes who are unable to afford payment for the right treatment.",
+      "image": "https://i.ibb.co/jG4pwZw/mission-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Working Together",
+      "details":"We will be working in partnership with Asthma UK and other Non-Governmental Organisations (NGO) in Nigeria that are doing the same work.",
+      "image": "https://i.ibb.co/Pg4fwcn/mission-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Non-Profit",
+      "details":"The Foundation is a non-profit organisation dedicated to improve the lives of people with Asthma and Allergies. Every penny you can donate goes towards help suffering people.",
+      "image": "https://i.ibb.co/j84hhtq/mission-4.jpg"
+    }
+  ]
