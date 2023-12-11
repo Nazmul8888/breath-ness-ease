@@ -6,6 +6,7 @@ import LayOut from "../components/Layout/LayOut";
 import Home from "../components/Home/Home";
 import AboutAsthma from "../components/SharedPage/AboutAsthma/AboutAsthma";
 import OurMission from "../components/SharedPage/OurMission/OurMission";
+import News from "../components/SharedPage/News/News";
 
 
   export const router = createBrowserRouter([
@@ -24,6 +25,10 @@ import OurMission from "../components/SharedPage/OurMission/OurMission";
         {
           path: 'ourMission',
           element:<OurMission></OurMission>
+        },
+        {
+          path: 'news',
+          element: <News></News>
         }
       ]
     },

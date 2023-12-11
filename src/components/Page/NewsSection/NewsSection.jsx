@@ -8,7 +8,7 @@ const NewsSection = () => {
      console.log(news)
 
      useEffect(()=>{
-        fetch('news.json')
+        fetch('http://localhost:5000/news')
         .then(res=> res.json())
         .then(data=> setNews(data))
      },[])
