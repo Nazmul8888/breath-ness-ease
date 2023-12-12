@@ -7,6 +7,7 @@ import Home from "../components/Home/Home";
 import AboutAsthma from "../components/SharedPage/AboutAsthma/AboutAsthma";
 import OurMission from "../components/SharedPage/OurMission/OurMission";
 import News from "../components/SharedPage/News/News";
+import ContactUs from "../components/SharedPage/ConatctUs/ContactUs";
 
 
   export const router = createBrowserRouter([
@@ -29,6 +30,10 @@ import News from "../components/SharedPage/News/News";
         {
           path: 'news',
           element: <News></News>
+        },
+        {
+          path:'contactUs',
+          element: <ContactUs></ContactUs>
         }
       ]
     },

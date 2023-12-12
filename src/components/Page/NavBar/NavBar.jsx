@@ -9,7 +9,7 @@ const NavBar = () => {
     <li><Link to='/ourStory' className=" text-white font-bold ">OUR STORY</Link></li>
     <li><Link to='/ourMission' className=" text-white font-bold ">OUR MISSION</Link></li>
     <li><Link to='/news' className=" text-white font-bold ">NEWS</Link></li>
-    <li><Link to='/contact' className=" text-white font-bold ">CONTACT</Link></li>
+    <li><Link to='/contactUs' className=" text-white font-bold ">CONTACT US</Link></li>
     </>
     return (
         <div>
