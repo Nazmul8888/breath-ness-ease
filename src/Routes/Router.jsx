@@ -8,6 +8,7 @@ import AboutAsthma from "../components/SharedPage/AboutAsthma/AboutAsthma";
 import OurMission from "../components/SharedPage/OurMission/OurMission";
 import News from "../components/SharedPage/News/News";
 import ContactUs from "../components/SharedPage/ConatctUs/ContactUs";
+import OurStory from "../components/Page/OurStory/OurStory";
 
 
   export const router = createBrowserRouter([
@@ -34,6 +35,10 @@ import ContactUs from "../components/SharedPage/ConatctUs/ContactUs";
         {
           path:'contactUs',
           element: <ContactUs></ContactUs>
+        },
+        {
+          path: 'ourStory',
+          element:<OurStory></OurStory>
         }
       ]
     },
